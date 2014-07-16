@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <post>
+    <formatType value="2.0"/>
+    <italicAngle value="0.0"/>
+    <underlinePosition value="-125"/>
+    <underlineThickness value="50"/>
+    <isFixedPitch value="0"/>
+    <minMemType42 value="0"/>
+    <maxMemType42 value="0"/>
+    <minMemType1 value="0"/>
+    <maxMemType1 value="0"/>
+    <psNames>
+      <!-- This file uses unique glyph names based on the information
+           found in the 'post' table. Since these names might not be unique,
+           we have to invent artificial names in case of clashes. In order to
+           be able to retain the original information, we need a name to
+           ps name mapping for those cases where they differ. That's what
+           you see below.
+            -->
+    </psNames>
+    <extraNames>
+      <!-- following are the name that are not taken from the standard Mac glyph order -->
+      <psName name="CR"/>
+      <psName name="uni00AD"/>
+      <psName name="Aogonek"/>
+      <psName name="aogonek"/>
+      <psName name="Dcaron"/>
+      <psName name="dcaron"/>
+      <psName name="Eogonek"/>
+      <psName name="eogonek"/>
+      <psName name="Ecaron"/>
+      <psName name="ecaron"/>
+      <psName name="Hbar"/>
+      <psName name="hbar"/>
+      <psName name="Itilde"/>
+      <psName name="itilde"/>
+      <psName name="IJ"/>
+      <psName name="ij"/>
+      <psName name="Jcircumflex"/>
+      <psName name="jcircumflex"/>
+      <psName name="Kcommaaccent"/>
+      <psName name="kcommaaccent"/>
+      <psName name="kgreenlandic"/>
+      <psName name="Ldot"/>
+      <psName name="ldot"/>
+      <psName name="Nacute"/>
+      <psName name="nacute"/>
+      <psName name="Ncaron"/>
+      <psName name="ncaron"/>
+      <psName name="Racute"/>
+      <psName name="racute"/>
+      <psName name="Rcommaaccent"/>
+      <psName name="rcommaaccent"/>
+      <psName name="Rcaron"/>
+      <psName name="rcaron"/>
+      <psName name="Sacute"/>
+      <psName name="sacute"/>
+      <psName name="Tcaron"/>
+      <psName name="tcaron"/>
+      <psName name="Uring"/>
+      <psName name="uring"/>
+      <psName name="Zacute"/>
+      <psName name="zacute"/>
+      <psName name="Zdotaccent"/>
+      <psName name="zdotaccent"/>
+      <psName name="dotlessj"/>
+      <psName name="germandbls.cap"/>
+      <psName name="foursuperior"/>
+      <psName name="Euro"/>
+      <psName name="nbspace"/>
+      <psName name="commaaccent"/>
+      <psName name="grave.cap"/>
+      <psName name="acute.cap"/>
+      <psName name="circumflex.cap"/>
+      <psName name="dieresis.cap"/>
+      <psName name="caron.cap"/>
+      <psName name="ring.cap"/>
+      <psName name="tilde.cap"/>
+      <psName name="dotaccent.cap"/>
+      <psName name="caron.alt"/>
+      <psName name="commaaccent.cap"/>
+      <psName name="a.smcp"/>
+      <psName name="b.smcp"/>
+      <psName name="c.smcp"/>
+      <psName name="d.smcp"/>
+      <psName name="e.smcp"/>
+      <psName name="f.smcp"/>
+      <psName name="g.smcp"/>
+      <psName name="h.smcp"/>
+      <psName name="i.smcp"/>
+      <psName name="j.smcp"/>
+      <psName name="k.smcp"/>
+      <psName name="l.smcp"/>
+      <psName name="m.smcp"/>
+      <psName name="n.smcp"/>
+      <psName name="o.smcp"/>
+      <psName name="p.smcp"/>
+      <psName name="q.smcp"/>
+      <psName name="r.smcp"/>
+      <psName name="s.smcp"/>
+      <psName name="t.smcp"/>
+      <psName name="u.smcp"/>
+      <psName name="v.smcp"/>
+      <psName name="w.smcp"/>
+      <psName name="x.smcp"/>
+      <psName name="y.smcp"/>
+      <psName name="z.smcp"/>
+      <psName name="ampersand.smcp"/>
+      <psName name="zero.smcp"/>
+      <psName name="one.smcp"/>
+      <psName name="two.smcp"/>
+      <psName name="three.smcp"/>
+      <psName name="four.smcp"/>
+      <psName name="five.smcp"/>
+      <psName name="six.smcp"/>
+      <psName name="seven.smcp"/>
+      <psName name="eight.smcp"/>
+      <psName name="nine.smcp"/>
+      <psName name="currency.smcp"/>
+      <psName name="dollar.smcp"/>
+      <psName name="cent.smcp"/>
+      <psName name="sterling.smcp"/>
+      <psName name="Euro.smcp"/>
+      <psName name="yen.smcp"/>
+      <psName name="ae.smcp"/>
+      <psName name="agrave.smcp"/>
+      <psName name="aacute.smcp"/>
+      <psName name="acircumflex.smcp"/>
+      <psName name="atilde.smcp"/>
+      <psName name="adieresis.smcp"/>
+      <psName name="aring.smcp"/>
+      <psName name="ccedilla.smcp"/>
+      <psName name="egrave.smcp"/>
+      <psName name="eacute.smcp"/>
+      <psName name="ecircumflex.smcp"/>
+      <psName name="edieresis.smcp"/>
+      <psName name="hbar.smcp"/>
+      <psName name="igrave.smcp"/>
+      <psName name="iacute.smcp"/>
+      <psName name="icircumflex.smcp"/>
+      <psName name="itilde.smcp"/>
+      <psName name="idieresis.smcp"/>
+      <psName name="ij.smcp"/>
+      <psName name="jcircumflex.smcp"/>
+      <psName name="kcommaaccent.smcp"/>
+      <psName name="kgreenlandic.smcp"/>
+      <psName name="ldot.smcp"/>
+      <psName name="lslash.smcp"/>
+      <psName name="nacute.smcp"/>
+      <psName name="ntilde.smcp"/>
+      <psName name="oe.smcp"/>
+      <psName name="ograve.smcp"/>
+      <psName name="oacute.smcp"/>
+      <psName name="ocircumflex.smcp"/>
+      <psName name="otilde.smcp"/>
+      <psName name="odieresis.smcp"/>
+      <psName name="oslash.smcp"/>
+      <psName name="racute.smcp"/>
+      <psName name="rcaron.smcp"/>
+      <psName name="rcommaaccent.smcp"/>
+      <psName name="germandbls.smcp"/>
+      <psName name="germandbls.cap_smcp"/>
+      <psName name="ugrave.smcp"/>
+      <psName name="uacute.smcp"/>
+      <psName name="ucircumflex.smcp"/>
+      <psName name="udieresis.smcp"/>
+      <psName name="yacute.smcp"/>
+      <psName name="ydieresis.smcp"/>
+      <psName name="eth.smcp"/>
+      <psName name="thorn.smcp"/>
+      <psName name="aogonek.smcp"/>
+      <psName name="cacute.smcp"/>
+      <psName name="ccaron.smcp"/>
+      <psName name="dcaron.smcp"/>
+      <psName name="ecaron.smcp"/>
+      <psName name="eogonek.smcp"/>
+      <psName name="ncaron.smcp"/>
+      <psName name="sacute.smcp"/>
+      <psName name="scaron.smcp"/>
+      <psName name="tcaron.smcp"/>
+      <psName name="uring.smcp"/>
+      <psName name="zacute.smcp"/>
+      <psName name="zdotaccent.smcp"/>
+      <psName name="zcaron.smcp"/>
+    </extraNames>
+  </post>
+
+</ttFont>
