@@ -1,0 +1,1216 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/signikanegative/METADATA.json /home/travis/build/fontdirectory/signikanegative/builds/build
+$ cp -a /home/travis/build/fontdirectory/signikanegative/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/signikanegative/builds/build
+$ cp -a /home/travis/build/fontdirectory/signikanegative/FONTLOG.txt /home/travis/build/fontdirectory/signikanegative/builds/build
+$ cp -a SignikaNegative-Semibold.ttf.ttx SignikaNegative-Regular.ttf.ttx SignikaNegative-Light.ttf.ttx SignikaNegative-Bold.ttf.ttx src/SignikaNegative-Semibold.otf.ttx src/SignikaNegative-Regular.otf.ttx src/SignikaNegative-Light.otf.ttx src/SignikaNegative-Bold.otf.ttx src/SignikaNegative-Semibold-TTF.sfd src/SignikaNegative-Regular-TTF.sfd src/SignikaNegative-Light-TTF.sfd src/SignikaNegative-Bold-TTF.sfd SignikaNegative-Semibold.ttf._p_r_e_p.ttx SignikaNegative-Semibold.ttf._p_o_s_t.ttx SignikaNegative-Semibold.ttf._n_a_m_e.ttx SignikaNegative-Semibold.ttf._m_a_x_p.ttx SignikaNegative-Semibold.ttf._l_o_c_a.ttx SignikaNegative-Semibold.ttf._h_m_t_x.ttx SignikaNegative-Semibold.ttf._h_h_e_a.ttx SignikaNegative-Semibold.ttf._h_e_a_d.ttx SignikaNegative-Semibold.ttf._g_l_y_f.ttx SignikaNegative-Semibold.ttf._g_a_s_p.ttx SignikaNegative-Semibold.ttf._c_m_a_p.ttx SignikaNegative-Semibold.ttf.O_S_2f_2.ttx SignikaNegative-Semibold.ttf.GlyphOrder.ttx SignikaNegative-Semibold.ttf.G_S_U_B_.ttx SignikaNegative-Semibold.ttf.G_P_O_S_.ttx SignikaNegative-Semibold.ttf.G_D_E_F_.ttx SignikaNegative-Semibold.ttf.F_F_T_M_.ttx SignikaNegative-Semibold.ttf.D_S_I_G_.ttx SignikaNegative-Regular.ttf._p_r_e_p.ttx SignikaNegative-Regular.ttf._p_o_s_t.ttx SignikaNegative-Regular.ttf._n_a_m_e.ttx SignikaNegative-Regular.ttf._m_a_x_p.ttx SignikaNegative-Regular.ttf._l_o_c_a.ttx SignikaNegative-Regular.ttf._h_m_t_x.ttx SignikaNegative-Regular.ttf._h_h_e_a.ttx SignikaNegative-Regular.ttf._h_e_a_d.ttx SignikaNegative-Regular.ttf._g_l_y_f.ttx SignikaNegative-Regular.ttf._g_a_s_p.ttx SignikaNegative-Regular.ttf._c_m_a_p.ttx SignikaNegative-Regular.ttf.O_S_2f_2.ttx SignikaNegative-Regular.ttf.GlyphOrder.ttx SignikaNegative-Regular.ttf.G_S_U_B_.ttx SignikaNegative-Regular.ttf.G_P_O_S_.ttx SignikaNegative-Regular.ttf.G_D_E_F_.ttx SignikaNegative-Regular.ttf.F_F_T_M_.ttx SignikaNegative-Regular.ttf.D_S_I_G_.ttx SignikaNegative-Light.ttf._p_r_e_p.ttx SignikaNegative-Light.ttf._p_o_s_t.ttx SignikaNegative-Light.ttf._n_a_m_e.ttx SignikaNegative-Light.ttf._m_a_x_p.ttx SignikaNegative-Light.ttf._l_o_c_a.ttx SignikaNegative-Light.ttf._h_m_t_x.ttx SignikaNegative-Light.ttf._h_h_e_a.ttx SignikaNegative-Light.ttf._h_e_a_d.ttx SignikaNegative-Light.ttf._g_l_y_f.ttx SignikaNegative-Light.ttf._g_a_s_p.ttx SignikaNegative-Light.ttf._c_m_a_p.ttx SignikaNegative-Light.ttf.O_S_2f_2.ttx SignikaNegative-Light.ttf.GlyphOrder.ttx SignikaNegative-Light.ttf.G_S_U_B_.ttx SignikaNegative-Light.ttf.G_P_O_S_.ttx SignikaNegative-Light.ttf.G_D_E_F_.ttx SignikaNegative-Light.ttf.F_F_T_M_.ttx SignikaNegative-Light.ttf.D_S_I_G_.ttx SignikaNegative-Bold.ttf._p_r_e_p.ttx SignikaNegative-Bold.ttf._p_o_s_t.ttx SignikaNegative-Bold.ttf._n_a_m_e.ttx SignikaNegative-Bold.ttf._m_a_x_p.ttx SignikaNegative-Bold.ttf._l_o_c_a.ttx SignikaNegative-Bold.ttf._h_m_t_x.ttx SignikaNegative-Bold.ttf._h_h_e_a.ttx SignikaNegative-Bold.ttf._h_e_a_d.ttx SignikaNegative-Bold.ttf._g_l_y_f.ttx SignikaNegative-Bold.ttf._g_a_s_p.ttx SignikaNegative-Bold.ttf._c_m_a_p.ttx SignikaNegative-Bold.ttf.O_S_2f_2.ttx SignikaNegative-Bold.ttf.GlyphOrder.ttx SignikaNegative-Bold.ttf.G_S_U_B_.ttx SignikaNegative-Bold.ttf.G_P_O_S_.ttx SignikaNegative-Bold.ttf.G_D_E_F_.ttx SignikaNegative-Bold.ttf.F_F_T_M_.ttx SignikaNegative-Bold.ttf.D_S_I_G_.ttx src/SignikaNegative-Semibold.otf._p_o_s_t.ttx src/SignikaNegative-Semibold.otf._n_a_m_e.ttx src/SignikaNegative-Semibold.otf._m_a_x_p.ttx src/SignikaNegative-Semibold.otf._k_e_r_n.ttx src/SignikaNegative-Semibold.otf._h_m_t_x.ttx src/SignikaNegative-Semibold.otf._h_h_e_a.ttx src/SignikaNegative-Semibold.otf._h_e_a_d.ttx src/SignikaNegative-Semibold.otf._c_m_a_p.ttx src/SignikaNegative-Semibold.otf.O_S_2f_2.ttx src/SignikaNegative-Semibold.otf.GlyphOrder.ttx src/SignikaNegative-Semibold.otf.C_F_F_.ttx src/SignikaNegative-Regular.otf._p_o_s_t.ttx src/SignikaNegative-Regular.otf._n_a_m_e.ttx src/SignikaNegative-Regular.otf._m_a_x_p.ttx src/SignikaNegative-Regular.otf._k_e_r_n.ttx src/SignikaNegative-Regular.otf._h_m_t_x.ttx src/SignikaNegative-Regular.otf._h_h_e_a.ttx src/SignikaNegative-Regular.otf._h_e_a_d.ttx src/SignikaNegative-Regular.otf._c_m_a_p.ttx src/SignikaNegative-Regular.otf.O_S_2f_2.ttx src/SignikaNegative-Regular.otf.GlyphOrder.ttx src/SignikaNegative-Regular.otf.C_F_F_.ttx src/SignikaNegative-Light.otf._p_o_s_t.ttx src/SignikaNegative-Light.otf._n_a_m_e.ttx src/SignikaNegative-Light.otf._m_a_x_p.ttx src/SignikaNegative-Light.otf._k_e_r_n.ttx src/SignikaNegative-Light.otf._h_m_t_x.ttx src/SignikaNegative-Light.otf._h_h_e_a.ttx src/SignikaNegative-Light.otf._h_e_a_d.ttx src/SignikaNegative-Light.otf._c_m_a_p.ttx src/SignikaNegative-Light.otf.O_S_2f_2.ttx src/SignikaNegative-Light.otf.GlyphOrder.ttx src/SignikaNegative-Light.otf.C_F_F_.ttx src/SignikaNegative-Bold.otf._p_o_s_t.ttx src/SignikaNegative-Bold.otf._n_a_m_e.ttx src/SignikaNegative-Bold.otf._m_a_x_p.ttx src/SignikaNegative-Bold.otf._k_e_r_n.ttx src/SignikaNegative-Bold.otf._h_m_t_x.ttx src/SignikaNegative-Bold.otf._h_h_e_a.ttx src/SignikaNegative-Bold.otf._h_e_a_d.ttx src/SignikaNegative-Bold.otf._c_m_a_p.ttx src/SignikaNegative-Bold.otf.O_S_2f_2.ttx src/SignikaNegative-Bold.otf.GlyphOrder.ttx src/SignikaNegative-Bold.otf.C_F_F_.ttx /home/travis/build/fontdirectory/signikanegative/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ fontbakery-check.py upstream-repo sources
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Bold.otf.ttx /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Light.otf.ttx /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Regular.otf.ttx /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Semibold.otf.ttx /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Bold.ttf.ttx /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Light.ttf.ttx /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Regular.ttf.ttx /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Semibold.ttf.ttx /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Bold-TTF.sfd /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Light-TTF.sfd /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Regular-TTF.sfd /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Semibold-TTF.sfd > fontaine.txt
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): OK
+pyfontaine error: Not a TrueType or OpenType font (bad sfntVersion)
+pyfontaine process has been failed
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): OK
+$ fontbakery-check.py upstream-ttx SignikaNegative-Bold.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Bold.otf.ttx /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx SignikaNegative-Light.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Light.otf.ttx /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Light.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx SignikaNegative-Regular.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Regular.otf.ttx /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx SignikaNegative-Semibold.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Semibold.otf.ttx /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Semibold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx SignikaNegative-Bold.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Bold.ttf.ttx /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx SignikaNegative-Light.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Light.ttf.ttx /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Light.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx SignikaNegative-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Regular.ttf.ttx /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx SignikaNegative-Semibold.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Semibold.ttf.ttx /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Semibold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream SignikaNegative-Bold-TTF.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ fontbakery-check.py upstream SignikaNegative-Light-TTF.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ fontbakery-check.py upstream SignikaNegative-Regular-TTF.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ fontbakery-check.py upstream SignikaNegative-Semibold-TTF.sfd
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/signikanegative/builds/build /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Semibold.ttx /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Regular.ttx /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Light.ttx /home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Bold.ttx
+strippedname:/home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Bold-TTF.sfd
+strippedname:/home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Light-TTF.sfd
+strippedname:/home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Regular-TTF.sfd
+strippedname:/home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Semibold-TTF.sfd
+Compiling "/home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Semibold.ttx" to "/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'prep' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Regular.ttx" to "/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'prep' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Light.ttx" to "/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'prep' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/signikanegative/builds/build/sources/SignikaNegative-Bold.ttx" to "/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'prep' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+### Test SignikaNegative-Semibold.ttf
+$ fontbakery-check.py result SignikaNegative-Semibold.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf
+Parameter              SignikaNegative-Semibold.ttf    SignikaNegative-Bold.ttf    SignikaNegative-Light.ttf    SignikaNegative-Regular.ttf    
+ymax                   918                             935                         880                          899                            
+hhea.ascent            935                             935                         935                          935                            
+OS/2.sTypoAscender     935                             935                         935                          935                            
+OS/2.usWinAscent       935                             935                         935                          935                            
+ymin                   -274                            -288                        -244                         -260                           
+hhea.descent           -288                            -288                        -288                         -288                           
+OS/2.sTypoDescender    -288                            -288                        -288                         -288                           
+OS/2.usWinDescent      288                             288                         288                          288                            
+hhea.lineGap           0                               0                           0                            0                              
+OS/2.sTypoLineGap      0                               0                           0                            0                              
+hhea total             1223                            1223                        1223                         1223                           
+typo total             1223                            1223                        1223                         1223                           
+win total              1223                            1223                        1223                         1223                           
+UPM:Heights            1000:1192                       1000:1223                   1000:1124                    1000:1159                      
+UPM:Heights %          119 %                           122 %                       112 %                        115 %                          
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF SignikaNegative-Semibold.ttf
+$ ls -l 'SignikaNegative-Semibold.ttf'* # look at the size savings of that subset process
+SignikaNegative-Semibold.ttf.opt: 49676 bytes
+SignikaNegative-Semibold.ttf: 53368 bytes
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf.opt /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf
+### Autohint TTFs (ttfautohint) SignikaNegative-Semibold.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf '/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf: 49676 bytes
+/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.autohint.ttf: 69124 bytes
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.autohint.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf
+### Subset TTFs (pyftsubset) SignikaNegative-Semibold.ttf
+$ pyftsubset SignikaNegative-Semibold.latin
+$ pyftsubset SignikaNegative-Semibold.menu
+strippedname:/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf
+No nbsp glyph
+spaceWidth is    220
+nbspWidth is     0
+SignikaNegative-Semibold.ttf.fix made with spaceWidth and nbspWidth of 220
+### Test SignikaNegative-Regular.ttf
+$ fontbakery-check.py result SignikaNegative-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF SignikaNegative-Regular.ttf
+$ ls -l 'SignikaNegative-Regular.ttf'* # look at the size savings of that subset process
+SignikaNegative-Regular.ttf.opt: 50072 bytes
+SignikaNegative-Regular.ttf: 53736 bytes
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf.opt /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf
+### Autohint TTFs (ttfautohint) SignikaNegative-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf '/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf: 50072 bytes
+/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.autohint.ttf: 69788 bytes
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.autohint.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf
+### Subset TTFs (pyftsubset) SignikaNegative-Regular.ttf
+$ pyftsubset SignikaNegative-Regular.latin
+$ pyftsubset SignikaNegative-Regular.menu
+strippedname:/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf
+No nbsp glyph
+spaceWidth is    220
+nbspWidth is     0
+SignikaNegative-Regular.ttf.fix made with spaceWidth and nbspWidth of 220
+### Test SignikaNegative-Light.ttf
+$ fontbakery-check.py result SignikaNegative-Light.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF SignikaNegative-Light.ttf
+$ ls -l 'SignikaNegative-Light.ttf'* # look at the size savings of that subset process
+SignikaNegative-Light.ttf.opt: 51364 bytes
+SignikaNegative-Light.ttf: 55044 bytes
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf.opt /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf
+### Autohint TTFs (ttfautohint) SignikaNegative-Light.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf '/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf: 51364 bytes
+/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.autohint.ttf: 70876 bytes
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.autohint.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf
+### Subset TTFs (pyftsubset) SignikaNegative-Light.ttf
+$ pyftsubset SignikaNegative-Light.latin
+$ pyftsubset SignikaNegative-Light.menu
+strippedname:/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf
+No nbsp glyph
+spaceWidth is    220
+nbspWidth is     0
+SignikaNegative-Light.ttf.fix made with spaceWidth and nbspWidth of 220
+### Test SignikaNegative-Bold.ttf
+$ fontbakery-check.py result SignikaNegative-Bold.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF SignikaNegative-Bold.ttf
+$ ls -l 'SignikaNegative-Bold.ttf'* # look at the size savings of that subset process
+SignikaNegative-Bold.ttf.opt: 49924 bytes
+SignikaNegative-Bold.ttf: 53600 bytes
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf.opt /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf
+### Autohint TTFs (ttfautohint) SignikaNegative-Bold.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf '/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf: 49924 bytes
+/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.autohint.ttf: 70776 bytes
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.autohint.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf
+### Subset TTFs (pyftsubset) SignikaNegative-Bold.ttf
+$ pyftsubset SignikaNegative-Bold.latin
+$ pyftsubset SignikaNegative-Bold.menu
+strippedname:/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf
+No nbsp glyph
+spaceWidth is    220
+nbspWidth is     0
+SignikaNegative-Bold.ttf.fix made with spaceWidth and nbspWidth of 220
+$ fontbakery-build-font2ttf.py sources/SignikaNegative-Bold-TTF.sfd SignikaNegative-Bold-TTF.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf)
+### Test SignikaNegative-Bold-TTF.ttf
+$ fontbakery-check.py result SignikaNegative-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf
+Parameter              SignikaNegative-Bold-TTF.ttf    SignikaNegative-Bold.ttf    SignikaNegative-Light.ttf    SignikaNegative-Regular.ttf    SignikaNegative-Semibold.ttf    
+ymax                   935                             935                         880                          899                            918                             
+hhea.ascent            935                             935                         935                          935                            935                             
+OS/2.sTypoAscender     935                             935                         935                          935                            935                             
+OS/2.usWinAscent       935                             935                         935                          935                            935                             
+ymin                   -288                            -288                        -244                         -260                           -274                            
+hhea.descent           -288                            -288                        -288                         -288                           -288                            
+OS/2.sTypoDescender    -288                            -288                        -288                         -288                           -288                            
+OS/2.usWinDescent      288                             288                         288                          288                            288                             
+hhea.lineGap           0                               0                           0                            0                              0                               
+OS/2.sTypoLineGap      0                               0                           0                            0                              0                               
+hhea total             1223                            1223                        1223                         1223                           1223                            
+typo total             1223                            1223                        1223                         1223                           1223                            
+win total              1223                            1223                        1223                         1223                           1223                            
+UPM:Heights            1000:1223                       1000:1223                   1000:1124                    1000:1159                      1000:1192                       
+UPM:Heights %          122 %                           122 %                       112 %                        115 %                          119 %                           
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF SignikaNegative-Bold-TTF.ttf
+$ ls -l 'SignikaNegative-Bold-TTF.ttf'* # look at the size savings of that subset process
+SignikaNegative-Bold-TTF.ttf.opt: 49856 bytes
+SignikaNegative-Bold-TTF.ttf: 53996 bytes
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf.opt /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf
+### Autohint TTFs (ttfautohint) SignikaNegative-Bold-TTF.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf '/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf: 49856 bytes
+/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.autohint.ttf: 70924 bytes
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.autohint.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf
+### Subset TTFs (pyftsubset) SignikaNegative-Bold-TTF.ttf
+$ pyftsubset SignikaNegative-Bold-TTF.latin
+$ pyftsubset SignikaNegative-Bold-TTF.menu
+strippedname:/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf
+No nbsp glyph
+spaceWidth is    220
+nbspWidth is     0
+SignikaNegative-Bold-TTF.ttf.fix made with spaceWidth and nbspWidth of 220
+$ fontbakery-build-font2ttf.py sources/SignikaNegative-Light-TTF.sfd SignikaNegative-Light-TTF.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf)
+### Test SignikaNegative-Light-TTF.ttf
+$ fontbakery-check.py result SignikaNegative-Light-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf
+Parameter              SignikaNegative-Light-TTF.ttf    SignikaNegative-Bold-TTF.ttf    SignikaNegative-Semibold.ttf    SignikaNegative-Regular.ttf    SignikaNegative-Light.ttf    SignikaNegative-Bold.ttf    
+ymax                   880                              935                             918                             899                            880                          935                         
+hhea.ascent            935                              935                             935                             935                            935                          935                         
+OS/2.sTypoAscender     935                              935                             935                             935                            935                          935                         
+OS/2.usWinAscent       935                              935                             935                             935                            935                          935                         
+ymin                   -244                             -288                            -274                            -260                           -244                         -288                        
+hhea.descent           -288                             -288                            -288                            -288                           -288                         -288                        
+OS/2.sTypoDescender    -288                             -288                            -288                            -288                           -288                         -288                        
+OS/2.usWinDescent      288                              288                             288                             288                            288                          288                         
+hhea.lineGap           0                                0                               0                               0                              0                            0                           
+OS/2.sTypoLineGap      0                                0                               0                               0                              0                            0                           
+hhea total             1223                             1223                            1223                            1223                           1223                         1223                        
+typo total             1223                             1223                            1223                            1223                           1223                         1223                        
+win total              1223                             1223                            1223                            1223                           1223                         1223                        
+UPM:Heights            1000:1124                        1000:1223                       1000:1192                       1000:1159                      1000:1124                    1000:1223                   
+UPM:Heights %          112 %                            122 %                           119 %                           115 %                          112 %                        122 %                       
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF SignikaNegative-Light-TTF.ttf
+$ ls -l 'SignikaNegative-Light-TTF.ttf'* # look at the size savings of that subset process
+SignikaNegative-Light-TTF.ttf.opt: 51240 bytes
+SignikaNegative-Light-TTF.ttf: 55352 bytes
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf.opt /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf
+### Autohint TTFs (ttfautohint) SignikaNegative-Light-TTF.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf '/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf: 51240 bytes
+/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.autohint.ttf: 70224 bytes
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.autohint.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf
+### Subset TTFs (pyftsubset) SignikaNegative-Light-TTF.ttf
+$ pyftsubset SignikaNegative-Light-TTF.latin
+$ pyftsubset SignikaNegative-Light-TTF.menu
+strippedname:/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf
+No nbsp glyph
+spaceWidth is    220
+nbspWidth is     0
+SignikaNegative-Light-TTF.ttf.fix made with spaceWidth and nbspWidth of 220
+$ fontbakery-build-font2ttf.py sources/SignikaNegative-Regular-TTF.sfd SignikaNegative-Regular-TTF.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf)
+### Test SignikaNegative-Regular-TTF.ttf
+$ fontbakery-check.py result SignikaNegative-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf
+Parameter              SignikaNegative-Regular-TTF.ttf    SignikaNegative-Light-TTF.ttf    SignikaNegative-Bold.ttf    SignikaNegative-Light.ttf    SignikaNegative-Regular.ttf    SignikaNegative-Semibold.ttf    SignikaNegative-Bold-TTF.ttf    
+ymax                   899                                880                              935                         880                          899                            918                             935                             
+hhea.ascent            935                                935                              935                         935                          935                            935                             935                             
+OS/2.sTypoAscender     935                                935                              935                         935                          935                            935                             935                             
+OS/2.usWinAscent       935                                935                              935                         935                          935                            935                             935                             
+ymin                   -260                               -244                             -288                        -244                         -260                           -274                            -288                            
+hhea.descent           -288                               -288                             -288                        -288                         -288                           -288                            -288                            
+OS/2.sTypoDescender    -288                               -288                             -288                        -288                         -288                           -288                            -288                            
+OS/2.usWinDescent      288                                288                              288                         288                          288                            288                             288                             
+hhea.lineGap           0                                  0                                0                           0                            0                              0                               0                               
+OS/2.sTypoLineGap      0                                  0                                0                           0                            0                              0                               0                               
+hhea total             1223                               1223                             1223                        1223                         1223                           1223                            1223                            
+typo total             1223                               1223                             1223                        1223                         1223                           1223                            1223                            
+win total              1223                               1223                             1223                        1223                         1223                           1223                            1223                            
+UPM:Heights            1000:1159                          1000:1124                        1000:1223                   1000:1124                    1000:1159                      1000:1192                       1000:1223                       
+UPM:Heights %          115 %                              112 %                            122 %                       112 %                        115 %                          119 %                           122 %                           
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF SignikaNegative-Regular-TTF.ttf
+$ ls -l 'SignikaNegative-Regular-TTF.ttf'* # look at the size savings of that subset process
+SignikaNegative-Regular-TTF.ttf.opt: 50020 bytes
+SignikaNegative-Regular-TTF.ttf: 54080 bytes
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf.opt /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf
+### Autohint TTFs (ttfautohint) SignikaNegative-Regular-TTF.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf '/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf: 50020 bytes
+/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.autohint.ttf: 70368 bytes
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.autohint.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf
+### Subset TTFs (pyftsubset) SignikaNegative-Regular-TTF.ttf
+$ pyftsubset SignikaNegative-Regular-TTF.latin
+$ pyftsubset SignikaNegative-Regular-TTF.menu
+strippedname:/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf
+No nbsp glyph
+spaceWidth is    220
+nbspWidth is     0
+SignikaNegative-Regular-TTF.ttf.fix made with spaceWidth and nbspWidth of 220
+$ fontbakery-build-font2ttf.py sources/SignikaNegative-Semibold-TTF.sfd SignikaNegative-Semibold-TTF.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf)
+### Test SignikaNegative-Semibold-TTF.ttf
+$ fontbakery-check.py result SignikaNegative-Semibold-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular-TTF.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold-TTF.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Regular.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Bold.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Light-TTF.ttf
+Parameter              SignikaNegative-Semibold-TTF.ttf    SignikaNegative-Regular-TTF.ttf    SignikaNegative-Bold-TTF.ttf    SignikaNegative-Semibold.ttf    SignikaNegative-Regular.ttf    SignikaNegative-Light.ttf    SignikaNegative-Bold.ttf    SignikaNegative-Light-TTF.ttf    
+ymax                   918                                 899                                935                             918                             899                            880                          935                         880                              
+hhea.ascent            935                                 935                                935                             935                             935                            935                          935                         935                              
+OS/2.sTypoAscender     935                                 935                                935                             935                             935                            935                          935                         935                              
+OS/2.usWinAscent       935                                 935                                935                             935                             935                            935                          935                         935                              
+ymin                   -274                                -260                               -288                            -274                            -260                           -244                         -288                        -244                             
+hhea.descent           -288                                -288                               -288                            -288                            -288                           -288                         -288                        -288                             
+OS/2.sTypoDescender    -288                                -288                               -288                            -288                            -288                           -288                         -288                        -288                             
+OS/2.usWinDescent      288                                 288                                288                             288                             288                            288                          288                         288                              
+hhea.lineGap           0                                   0                                  0                               0                               0                              0                            0                           0                                
+OS/2.sTypoLineGap      0                                   0                                  0                               0                               0                              0                            0                           0                                
+hhea total             1223                                1223                               1223                            1223                            1223                           1223                         1223                        1223                             
+typo total             1223                                1223                               1223                            1223                            1223                           1223                         1223                        1223                             
+win total              1223                                1223                               1223                            1223                            1223                           1223                         1223                        1223                             
+UPM:Heights            1000:1192                           1000:1159                          1000:1223                       1000:1192                       1000:1159                      1000:1124                    1000:1223                   1000:1124                        
+UPM:Heights %          119 %                               115 %                              122 %                           119 %                           115 %                          112 %                        122 %                       112 %                            
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf.fix /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF SignikaNegative-Semibold-TTF.ttf
+$ ls -l 'SignikaNegative-Semibold-TTF.ttf'* # look at the size savings of that subset process
+SignikaNegative-Semibold-TTF.ttf.opt: 49668 bytes
+SignikaNegative-Semibold-TTF.ttf: 53780 bytes
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf.opt /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf
+### Autohint TTFs (ttfautohint) SignikaNegative-Semibold-TTF.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf '/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf: 49668 bytes
+/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.autohint.ttf: 69208 bytes
+$ mv /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.autohint.ttf /home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf
+### Subset TTFs (pyftsubset) SignikaNegative-Semibold-TTF.ttf
+$ pyftsubset SignikaNegative-Semibold-TTF.latin
+$ pyftsubset SignikaNegative-Semibold-TTF.menu
+strippedname:/home/travis/build/fontdirectory/signikanegative/builds/build/SignikaNegative-Semibold-TTF.ttf
+No nbsp glyph
+spaceWidth is    220
+nbspWidth is     0
+SignikaNegative-Semibold-TTF.ttf.fix made with spaceWidth and nbspWidth of 220
+### (5 of 6) Generate METADATA.json (fontbakery-build-metadata.py)
+$ fontbakery-build-metadata.py /home/travis/build/fontdirectory/signikanegative/builds/build
+{} exists
+Designer's name from font is: Anna Giedrys
+Original size: 69788\nGzip size: 35597
+Family Name: Signika Negative
+PS Name: SignikaNegative-Semibold
+Full Name: Signika Negative Semibold
+Style: normal
+Weight: 600
+Filename: SignikaNegative-Semibold-TTF.ttf
+Copyright: Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com), with Reserved Font Names "Signika".
+Family Name: Signika Negative
+PS Name: SignikaNegative-Light
+Full Name: Signika Negative Light
+Style: normal
+Weight: 300
+Filename: SignikaNegative-Light-TTF.ttf
+Copyright: Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com), with Reserved Font Names "Signika".
+Family Name: Signika Negative
+PS Name: SignikaNegative-Bold
+Full Name: Signika Negative Bold
+Style: normal
+Weight: 700
+Filename: SignikaNegative-Bold.ttf
+Copyright: Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com), with Reserved Font Names "Signika".
+Family Name: Signika Negative
+PS Name: SignikaNegative-Light
+Full Name: Signika Negative Light
+Style: normal
+Weight: 300
+Filename: SignikaNegative-Light.ttf
+Copyright: Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com), with Reserved Font Names "Signika".
+Family Name: Signika Negative
+PS Name: SignikaNegative-Regular
+Full Name: Signika Negative
+Style: normal
+Weight: 400
+Filename: SignikaNegative-Regular.ttf
+Copyright: Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com), with Reserved Font Names "Signika".
+Family Name: Signika Negative
+PS Name: SignikaNegative-Semibold
+Full Name: Signika Negative Semibold
+Style: normal
+Weight: 600
+Filename: SignikaNegative-Semibold.ttf
+Copyright: Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com), with Reserved Font Names "Signika".
+Family Name: Signika Negative
+PS Name: SignikaNegative-Bold
+Full Name: Signika Negative Bold
+Style: normal
+Weight: 700
+Filename: SignikaNegative-Bold-TTF.ttf
+Copyright: Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com), with Reserved Font Names "Signika".
+Family Name: Signika Negative
+PS Name: SignikaNegative-Regular
+Full Name: Signika Negative
+Style: normal
+Weight: 400
+Filename: SignikaNegative-Regular-TTF.ttf
+Copyright: Copyright (c) 2011 by Anna Giedrys (http://ancymonic.com), with Reserved Font Names "Signika".
+Error: 
+ERROR: BUILD FAILED

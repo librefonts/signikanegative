@@ -1,0 +1,9 @@
+commit: HEAD
+process_files: [SignikaNegative-Semibold.ttf.ttx, SignikaNegative-Regular.ttf.ttx,
+  SignikaNegative-Light.ttf.ttx, SignikaNegative-Bold.ttf.ttx, src/SignikaNegative-Semibold.otf.ttx,
+  src/SignikaNegative-Regular.otf.ttx, src/SignikaNegative-Light.otf.ttx, src/SignikaNegative-Bold.otf.ttx,
+  src/SignikaNegative-Semibold-TTF.sfd, src/SignikaNegative-Regular-TTF.sfd, src/SignikaNegative-Light-TTF.sfd,
+  src/SignikaNegative-Bold-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
